@@ -1,0 +1,126 @@
+/* # Tablet */
+
+@media only screen and (min-width:415px) and (max-width:1000px){
+.green-box-add p{
+  font-size: 11px;
+}
+.unprocessed-app {
+    width: 90%;
+}
+.matched-app {
+    width: 90%;
+    float:left;
+}
+.single-job{
+  width: 100%;
+}
+.subs-box {
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.subs-box h3{
+  font-size:16px;
+}
+.price{
+  font-size:22px;
+}
+.job-price{
+}
+.red-button p{
+  text-align: center;
+}
+.green-button p{
+  text-align: center;
+}
+.red-button img{
+  display:none;
+}
+.green-button img{
+  display:none;
+}
+
+.title-profile-info p{
+  width: 60%;
+}
+.lside {
+    width: 30%;
+}
+.notes-content a{
+  font-size: 11px;
+}
+.nav_menu{
+  margin-left: 20px;
+  border:0px;
+}
+.nav_menu a{
+  font-size: 13px;
+}
+.tabs-for-tabs{
+  font-size: 11px;
+}
+ul.tabs-bar>li.active {
+    margin-top: -20px;
+}
+.green-box-text{
+  width:55%
+}
+}
+/* # SMALL TABLETS */
+
+@media only screen and (max-width:600px) {
+  .red-button, .green-button {
+      width: 65%;
+  }
+  .green-box-text h2{
+    font-size: 13px;
+  }
+  .telefone-ad{
+    margin-top:60px;
+  }
+}
+@media only screen and (max-width:767px) {
+  
+  .telefone-ad{
+    margin-top:60px;
+  }
+}
+
+@media only screen and (max-width:415px) {
+  .h1{
+    font-size:14px;
+    margin-top:15px;
+  }
+  .nav-edit-ad{
+    display: none;
+  }
+  .mobile-tab{
+    width: 100%;
+  }
+  ul.bar_tabs>li.active {
+    border-bottom: 0px solid #00e9b4;
+
+}
+.nav_menu {
+    position: static;
+    margin-left: 0px
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+}
+@media only screen and (min-width:960px) and (max-width:1030px){
+  .see-plans-button {
+      margin-right:0px;
+  }
+  .matched-app{
+      margin-left:10px;
+  }
+ .clear-space button{
+  font-size: 15px;
+}
+  .green-box-text{
+  width: 70%;
+}
+  
+}
+

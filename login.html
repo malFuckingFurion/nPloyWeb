@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/login.css">
+  <!-- Custom fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Login | nPloy </title>
+
+  <!-- Bootstrap -->
+  <link href="./vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="./vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="./vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link href="./vendors/animate.css/animate.min.css" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link href="./css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="login">
+
+  <div class="wrapper" style="height: auto;">
+    <div class="container" style="margin-top: 5%;">
+      <div class="row">
+        <span>
+          <img class="logo_login_page img-responsive" src="./images/nploy_logo_dark.svg">
+        </span>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="panel panel-default">
+            <div class="login_title"> LOGIN</div>
+            <div class="panel-body">
+              <form class="form-horizontal" method="POST" action="jobs.html">
+                <input type="hidden" name="_token" value="wJzUzPGzSk1EPPIPnpxg5Aiv88C79xt9AnqYNeHs">
+
+                <div class="form-group">
+                  <div class="col-md-12">
+                    <input id="email" placeholder="Business e-mail" type="email" class="input_uderline" maxlength="50" name="email" value="" required="" autofocus="">
+                    <hr class="input_uderline_green">
+
+
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12">
+                    <input id="password" placeholder="Password" type="password" class="input_uderline" maxlength="55" name="password" required="">
+                    <hr class="input_uderline_green">
+
+
+                  </div>
+                </div>
+
+                <div class="form-group remb-me">
+                  <div>
+                    <span>
+                      <span type="checkbox" class=" pull-left" name="remember">
+                        <input id="remember" name="remember" type="checkbox" value="1" maxlength="55">
+                        <span class="remember_me">Remember me</span>
+                        <a class="forgot_password pull-right" style="margin-left:180px;" href="http://nploy.dgmrk.net/forgot">Forgotten password?                                            </a>
+                      </span>
+                    </span>
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn_login">
+                      Login
+                    </button>
+
+                    <div>
+                      <span>
+                        <a class="dont_have_acc" href="http://nploy.dgmrk.net/forgot">
+                          <span class="">
+                            Don't have an account?                                            </span>
+                          </a>
+                          <a class="sing_up_here" href="http://nploy.dgmrk.net/register">
+                            <span class=""> Sign up here. </span>
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </body>
+    </html>

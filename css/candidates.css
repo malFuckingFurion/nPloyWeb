@@ -1,0 +1,553 @@
+body {
+  background-color: #fff !important;
+}
+
+/* LEFT NAVBAR START */
+.left_col {
+  background: #1c394f;
+}
+/* left-top-corner-logo */
+.nav_title{
+  margin:15px;
+}
+
+/* green button - post a job */
+.post_job{
+  background-color: #00e9b4;
+  color: #1c394f;
+  border: 1px solid #00e9b4;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px
+}
+/* user (name and company) */
+.profile_info span{
+  font-family: 'Roboto', sans-serif!important;
+  color: #fff!important;
+  font-size: 14px!important;
+}
+.profile_info h2{
+  color:#00e9b4!important;
+  font-size:11px!important;
+  font-family: 'Roboto', sans-serif!important;
+}
+/* fix space between nav sections */
+.nav>li>a {
+  padding: 5px 15px 12px!important;
+}
+.active span{
+  color:#00e9b4!important;
+}
+/*  nav sections styles */
+/* .side-menu span{
+  margin-left:7px;
+  font-family: 'Roboto', sans-serif!important;
+  color: #fff;
+  font-size: 14px!important;
+  position: relative;
+  top:2px
+} */
+
+/*  Top nav text style */
+.nav_menu{
+  padding-bottom: 10px
+}
+.nav_menu a{
+  color:#1c394f;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif!important;
+  font-weight: bold;
+  margin-left:20px
+}
+
+.nav_menu_green_text{
+  color:#009686!important;
+  font-family: 'Roboto', sans-serif!important;
+  font-weight: normal!important;
+}
+
+.dropdown-menu a:hover {
+  background-color:#2A3F54!important;
+  margin-left: 0px!important;
+  padding-left:20px;
+  color:white!important
+}
+.nav_menu span{
+  float: left;
+}
+.top-nav-dropdown{
+  float:right;
+}
+.dropdown{
+  float: right;
+}
+
+.open>.dropdown-menu {
+  display: grid!important;
+}
+
+.green-button-right{
+  border: 2px solid #009686!important;
+  border-radius: 7px!important;
+}
+.active-deco {
+  width: 66px;
+  height: 2.5px;
+  padding-bottom:31px;
+  border-bottom: 4px solid #00e9b4;
+}
+.toggle a {
+  position: relative;
+  top: -12px;
+  left: 10px;
+}
+/*  TABLE styles */
+
+th{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+  color: var(--warm-grey);
+}
+.td_names{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+  padding-left:5px;
+  color: #1c394f;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  border: 0px solid #ddd!important;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd!important;
+}
+.table-bordered {
+  border: 0px solid #ddd!important;
+}
+td {
+  padding-top: 11px!;
+}
+.table-bordered>tbody>tr>td {
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif!important;
+}
+.td-green-numb{
+  color:#009686!important;
+  font-weight: bold;
+}
+.td-candidates{
+  position: relative;
+  top: -1px
+}
+.table>tbody>tr>td{
+  padding-top: 14px!important;
+}
+/*  JOBS DETAILS SCREEN CSS */
+
+.h1-candidates{
+  font-family: Roboto!important;
+  font-size: 22px!important;
+  line-height: 0.6!important;
+  color: #1c394f!important;
+  margin-left: 10px;
+  margin-left: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.nav-edit-ad{
+  float:right;
+  padding-top:10px;
+  color:#009686!important;
+  text-decoration: underline;
+  font-weight: normal!important
+}
+.right_col ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.right_col li{
+  float: left;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #999999!important;
+  color: var(--warm-grey);
+}
+.im-dif{
+  margin-top: 5px;
+  width:100%;
+  margin-left: 45px!important
+}
+.im-dif li{
+  float: left;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #999999!important;
+  color: var(--warm-grey);
+}
+.td-green-numb-no-bold{
+  color:#009686!important;
+  font-weight: normal!important;
+}
+.green-box-add{
+  height:100px;
+  width: 95%;
+  background-color: #009686;
+  margin-left: 45px;
+  margin-top: 20px;
+  padding-left:20px;
+  padding-top:25px
+}
+.h2{
+  font-family: Roboto;
+  font-size: 17px!important;
+  text-align: left!important;
+  color: #ffffff!important;
+}
+.green-box-add p{
+  font-family: Roboto;
+  font-size: 13px!important;
+  text-align: left!important;
+  color: #ffffff!important;
+  font-weight: normal!important;
+  margin-left: 5px
+}
+.see-plans-button{
+  float: right;
+  padding: 10px;
+  border: 2px solid #00e9b4;
+  border-radius: 23px;
+  margin-right: 20px;
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.unprocessed-app{
+  margin-top:50px;
+  margin-left:40px;
+  width: 45%;
+  float: left;
+}
+.unprocessed-app h3 {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  color: #009686;
+  font-weight: normal!important;
+  margin-left: 6px
+}
+.matched-app{
+  margin-top:50px;
+  margin-left:40px;
+  width: 45%;
+  float: right;
+  padding-right: 3%
+}
+.matched-app h3 {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: right;
+  color: #1c394f;
+  font-weight: bold!important;
+  margin-left: 6px
+}
+.h3-matched{
+  float:left;
+  margin-bottom: -5px;
+  border-bottom: 4px solid #00e9b4;
+  padding-bottom: 11px;
+}
+.h3-disapprove{
+  float:right;
+  font-weight:normal!important
+}
+.user-curcle{
+  height: 10px;
+  width: 10px;
+  background-color: #00e9b4;
+  border-radius: 5px;
+  float: left;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+.candidate-img{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  float:left;
+  margin-left: 20px;
+  margin-right:20px;
+}
+.title-profile-info{
+  padding: 10px;
+  padding-left: 0px;
+  padding-top: 17px;
+}
+.title-profile-info p{
+  color:#009686!important;
+  margin:2px!important;
+  float:left;
+      width: 30%;
+}
+.title-profile_pic {
+  float: left
+}
+.nav_menu {
+  width: 70%;
+}
+
+.candidate-content{
+  border-top: 2px solid #E6E9ED;
+  width: 100%;
+}
+.little-green-box{
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #009686;
+  padding:3px;
+  padding-left:4px;
+  padding-right:4px;
+  margin-top:50px;
+}
+.green-border{
+  border-bottom: 1px solid #009686;
+  width: 100%;
+}
+.title-profile_pic{
+  margin-bottom: 20px
+}
+.exp-box{
+  width: 100%;
+  margin-top:20px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+  float:left;
+}
+.candidate-work-exp{
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.exp-box h2{
+  color:#1c394f!important;
+  font-size:20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-family: Roboto;
+}
+.exp-box h3{
+  color:#009686!important;
+  font-size:18px;
+  margin-top:0px!important;
+  font-family: Roboto;
+}
+.exp-box p{
+  color:#999999;
+  font-family: Roboto;
+}
+.list-skills{
+  float:left;
+  margin-top: 5px;
+}
+.skill{
+  float:left;
+  color: #ffffff;
+  background-color: #1c394f;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+p{
+  margin:0px!important;
+}
+.bullets {
+  list-style: disc;
+}
+.bullets li {
+  color:#999;
+}
+.bullets li p {
+  color:#1c394f;
+  font-weight: bold;
+}
+.doc-buttons-content img{
+  float:left;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.doc-button{
+  float: left;
+  border:2px solid #009686;
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 20px
+}
+.doc-button p{
+  color: #1c394f;
+  font-size:16px;
+  font-weight: bold
+}
+.lside{
+  width:22%;
+  float:right;
+  margin-top:20px;
+}
+.green-button{
+  background-color: #00e9b4;
+  width: 90%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.green-button img{
+  float:left;
+  padding-right: 10px;
+  padding-left:10px;
+}
+.green-button p {
+  color: #1c394f;
+  font-size: 15px;
+  font-weight: bold;
+}
+.red-button{
+  background-color: #e34646;
+  width: 90%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.red-button img{
+  float:left;
+  padding-right: 10px;
+  padding-left:10px;
+}
+.red-button p {
+  color: #1c394f;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.notes-content{
+  max-width: 257px;
+  background-color: #efefef;
+  float: left;
+  margin-top:50px;
+}
+
+.notes-content p {
+  padding: 10px;
+  font-size: 12px;
+  color: #999999;
+  font-weight: normal;
+}
+.notes-content a {
+  padding: 10px;
+  font-size: 13px;
+  color: #1c394f;
+  font-weight: bold;
+}
+.notes-content a img {
+  padding-right: 5px;
+}
+.grey-line{
+  border-top: 1px solid #ccc;
+  margin:10px;
+}
+.aide-dropdown{
+  width: 90%;
+  margin:10px;
+  float: left;
+}
+.aide-dropdown a{
+  width: 100%;
+
+}
+.green-dot{
+  height:10px;
+  width:10px;
+  background-color:#00e9b4;
+  border-radius:5px;
+  float:left;
+  position: relative;
+  top: 5px;
+  right:5px;
+}
+.green-dot a{
+  color:#009686;
+}
+.aside-btn img{
+  float:right;
+  padding: 5px;
+}
+.aside-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 15px!important;
+  font-weight: normal!important;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border-bottom: 3px solid #009686;
+  border-radius: 4px;
+  color:#009686!important;
+}
+.notes{
+  background-color: #fff;
+  margin:10px
+}
+.notes header {
+  color:#009686;
+  font-weight: bold;
+  padding:5px;
+}
+.notes article{
+  color:#999999;
+  padding:5px;
+  font-size: 12px
+}
+.add-note{
+  margin: 15px;
+border: 2px solid #009686;
+width: 100px;
+padding: 5px;
+text-align: center;
+border-radius: 22px;
+color:#1c394f;
+font-weight: bold
+}

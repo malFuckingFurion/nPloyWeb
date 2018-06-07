@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../css/custom-chat.css">
+  <!-- Custom fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Messages | Nploy </title>
+  <!-- chat css -->
+  <link href="../css/chat.css" rel="stylesheet">
+  <!-- <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/emilcarlsson/pen/ZOQZaV?limit=all&page=74&q=contact+" />
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.typekit.net/hoy3lrg.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- iCheck -->
+  <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link href="../css/custom.css" rel="stylesheet">
+  <link href="../css/jobs-nav.css" rel="stylesheet">
+  <!-- MOBILE AND TABLETS CSS Theme Style -->
+  <link href="../css/tablets.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="#" class="logo"title="">
+              <img src="../images/logo-nploy@2x.png" alt="nPloy logo" title="nPloy"/>
+            </a>
+          </div>
+          <a href="../post-a-job.html">
+            <button type="submit" class="post_job">
+              <img style="float:left" src="../images/ic/ic-post-job@2x.png"/>
+              <span style="float:left; margin-left:7px; color:#1c394f; font-family: 'Roboto', sans-serif!important;">Post a job</span>
+            </button>
+          </a>
+          <div class="clearfix"></div>
+
+          <!-- menu profile quick info -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="../images/img.jpg" alt="..." class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+              <span>Dimitar Georgiev</span>
+              <h2>Progress</h2>
+            </div>
+          </div>
+          <!-- /menu profile quick info -->
+
+          <br />
+
+          <!-- sidebar menu -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <ul class="nav side-menu">
+                <li><a><img src="../images/ic/ic-dashboard@2x.png"/><span>Dashboard</span></a></li>
+
+                <li><a href="../jobs.html"><img src="../images/ic/ic-jobs@2x.png"/><span>Jobs</span></a></li>
+
+                <li><a class="candidates-nav"><img src="../images/ic/ic-candidates@2x.png"/><span>Candidates</span></a></li>
+
+                <li class="active"><a href="../message/chat.html"style="color: #00e9b4;"><img src="../images/ic/ic-messages-act@2x.png"/><span>Messages</span></a></li>
+
+              </ul>
+            </div>
+            <div class="menu_section">
+              <ul class="nav side-menu">
+
+                <li><a><img src="../images/ic/ic-company-profile@2x.png"/><span>Company Profile</span></a></li>
+
+                <li><a><img src="../images/ic/ic-recruit-team@2x.png"/><span>Recruitment Team</span></a></li>
+
+                <li><a><img src="../images/ic/ic-subscriptions@2x.png"/><span>Subscriptions</span></a></li>
+
+              </ul>
+            </div>
+            <div class="menu_section" style="margin-top:100px; margin-bottom: 0px; padding-left: 5px ">
+              <ul class="nav side-menu">
+
+                <li><a><img src="../images/ic/ic-company-profile@2x.png"/><span style="color:#546576!important">Logout</span></a></li>
+
+              </ul>
+            </div>
+
+          </div>
+          <!-- /sidebar menu -->
+
+        </div>
+      </div>
+
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <div class="nav toggle" style='margin-top: 16px;'>
+            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+          </div>
+          <div>
+            <h1 class="h1">Messages</h1>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- /top navigation -->
+
+      <!-- page content -->
+      <div class="right_col" role="main">
+
+        <div id="frame">
+          <div id="sidepanel">
+            <div id="profile">
+              <div class="wrap">
+                <p>Filter by job ad</p>
+                <img class="fa fa-chevron-down expand-button" style="float:right; width:20px;" src="../images/basics-08-1283.png" aria-hidden="true"/>
+                <div id="status-options">
+                  <ul>
+                    <li id="status-online" class="active"><span class="status-circle"></span> <p>Online</p></li>
+                    <li id="status-away"><span class="status-circle"></span> <p>Away</p></li>
+                    <li id="status-busy"><span class="status-circle"></span> <p>Busy</p></li>
+                    <li id="status-offline"><span class="status-circle"></span> <p>Offline</p></li>
+                  </ul>
+                </div>
+                <div id="expanded">
+                  <label for="twitter"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></label>
+                  <input name="twitter" type="text" value="mikeross" />
+                  <label for="twitter"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></label>
+                  <input name="twitter" type="text" value="ross81" />
+                  <label for="twitter"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></label>
+                  <input name="twitter" type="text" value="mike.ross" />
+                </div>
+              </div>
+            </div>
+            <div id="contacts">
+              <ul>
+                <li class="contact">
+                  <div class="wrap">
+                    <span class="contact-status online"></span>
+                    <img src="http://emilcarlsson.se/assets/louislitt.png" alt="" />
+                    <div class="meta">
+                      <p class="name">Иван Петров</p>
+                      <p class="preview">Понеделник, 14,30 ч.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="contact active">
+                  <div class="wrap">
+                    <span class="contact-status busy"></span>
+                    <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                    <div class="meta">
+                      <p class="name-active">Димитър Георгиев</p>
+                      <p class="preview"> 08.02.2018г.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="contact">
+                  <div class="wrap">
+                    <span class="contact-status away"></span>
+                    <img src="http://emilcarlsson.se/assets/rachelzane.png" alt="" />
+                    <div class="meta">
+                      <p class="name">Мария Иванова</p>
+                      <p class="preview">Благодаря за проявения интерес!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="contact">
+                  <div class="wrap">
+                    <span class="contact-status busy"></span>
+                    <img src="http://emilcarlsson.se/assets/jessicapearson.png" alt="" />
+                    <div class="meta">
+                      <p class="name">Елена Димитрова</p>
+                      <p class="preview">Ще се радвам да се запознаем на живо.</p>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li class="contact">
+                  <div class="wrap">
+
+                    <div class="meta">
+                      <p class="name"></p>
+                      <p class="preview"></p>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="contact-profile">
+              <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+              <span class="employeer-name">Георги Иванов</span>
+              <span class="employeer-position">Marketing manager</span>
+              <div class="social-media">
+                <img style="height:25px; margin-top: 20px;width:25px" src="../images/ic/ic-candidate-number@3x.png" aria-hidden="true"/>
+                <img style="height:25px; margin-top: 20px;width:25px; border-radius:0%" src="../images/ic/ic-job-title@2x.png" aria-hidden="true"/>
+
+              </div>
+            </div>
+            <div class="messages">
+              <ul>
+                <li class="sent">
+                  <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+                  <p>Здравейте! Вашето CV е много е впечатляващо. </p>
+                </li>
+                <li class="replies">
+                  <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                  <p>Благодаря!</p>
+                </li>
+                <li class="replies">
+                  <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                  <p>Надявам се да можем да си бъдем взаимно полезни.</p>
+                </li>
+                <li class="sent">
+                  <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+                  <p>Ще се радваме ако имате възможност да се видим на живо и да обсъдим опциите, които можем да Ви предложим.</p>
+                </li>
+                <li class="replies">
+                  <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                  <p>Разбира се! Тази седмица времето ми е доста свободно, така че предложете удобен за вас ден и час.</p>
+                </li>
+                <li class="sent">
+                  <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+                  <p>Чудесно, нека се видим в четвъртък, 10:30ч. в нашият офис на ул. Тарас Шевченко 5А.</p>
+                </li>
+                <li class="replies">
+                  <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+                  <p>Супер. До четвъртък!</p>
+                </li>
+              </ul>
+            </div>
+            <div class="message-input">
+              <div class="wrap">
+                <input type="text" placeholder="Write your message..." />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /page content -->
+
+      <!-- footer content -->
+      <!-- /footer content -->
+    </div>
+  </div>
+  <!-- CHAT JS -->
+  <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  <script >$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+
+  $("#profile-img").click(function() {
+    $("#status-options").toggleClass("active");
+  });
+
+  $(".expand-button").click(function() {
+    $("#profile").toggleClass("expanded");
+    $("#contacts").toggleClass("expanded");
+  });
+
+  $("#status-options ul li").click(function() {
+    $("#profile-img").removeClass();
+    $("#status-online").removeClass("active");
+    $("#status-away").removeClass("active");
+    $("#status-busy").removeClass("active");
+    $("#status-offline").removeClass("active");
+    $(this).addClass("active");
+
+    if($("#status-online").hasClass("active")) {
+      $("#profile-img").addClass("online");
+    } else if ($("#status-away").hasClass("active")) {
+      $("#profile-img").addClass("away");
+    } else if ($("#status-busy").hasClass("active")) {
+      $("#profile-img").addClass("busy");
+    } else if ($("#status-offline").hasClass("active")) {
+      $("#profile-img").addClass("offline");
+    } else {
+      $("#profile-img").removeClass();
+    };
+
+    $("#status-options").removeClass("active");
+  });
+
+  function newMessage() {
+    message = $(".message-input input").val();
+    if($.trim(message) == '') {
+      return false;
+    }
+    $('<li class="sent"><img src="http://emilcarlsson.se/assets/mikeross.png" alt="" /><p>' + message + '</p></li>').appendTo($('.messages ul'));
+    $('.message-input input').val(null);
+    $('.contact.active .preview').html('<span>You: </span>' + message);
+    $(".messages").animate({ scrollTop: $(document).height() }, "fast");
+  };
+
+  $('.submit').click(function() {
+    newMessage();
+  });
+
+  $(window).on('keydown', function(e) {
+    if (e.which == 13) {
+      newMessage();
+      return false;
+    }
+  });
+  # sourceURL=pen.js
+</script>
+
+<!-- jQuery -->
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="../vendors/nprogress/nprogress.js"></script>
+<!-- iCheck -->
+<script src="../vendors/iCheck/icheck.min.js"></script>
+
+
+<!-- Custom Theme Scripts -->
+<script src="../js/custom.min.js"></script>
+
+</body>
+</html>

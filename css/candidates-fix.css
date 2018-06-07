@@ -1,0 +1,14 @@
+.nav_menu{
+  width: 60%;
+}
+.lside-btn{
+    max-width: 257px;
+    min-width: 230px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 1025px) and (min-width: 415px){}
+.toggle {
+    width: 100%;
+}
+}

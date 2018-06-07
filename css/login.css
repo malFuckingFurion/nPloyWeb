@@ -1,0 +1,104 @@
+body {
+    background-color: #fff !important;
+}
+
+.login_title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #1c394f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.panel-default {
+    background-color: #fff;
+    border: 2px solid #cccccc;
+    width: 460px;
+    border-radius: 10px !important;
+    box-shadow: -1px 0px 14px 0px rgba(0, 149, 134, 1);
+    margin: 0 auto;
+}
+
+.input_uderline {
+    border: 0;
+    outline: 0;
+    text-align: left;
+    width: 100%;
+    background: transparent;
+    color: #009686;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin-bottom: 3px
+
+}
+.remb-me {
+  padding-left: 10px;
+}
+.remember_me {
+    color: #009686;
+    font-size: 13px;
+}
+
+.input_uderline_green {
+    border-bottom: 3px solid #009686;
+    width: 410px;
+    margin-top: 0px;
+}
+
+input::placeholder {
+    color: #009686;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.forgot_password {
+    color: #009686 !important;
+    text-decoration: underline;
+    text-align: right
+}
+
+.form-horizontal .form-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.btn_login {
+    background-color: #00e9b4;
+    color: #1c394f;
+    border: 1px solid #00e9b4;
+    width: 380px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px
+}
+
+.grey_login {
+    border-bottom: 2px solid #cccccc;
+}
+
+.sing_up_here {
+    color: #009686;
+    border-bottom: 1px solid #009686;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo_login_page {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dont_have_acc{
+    color:#1c394f;
+    font-family: 'Roboto', sans-serif;
+}
